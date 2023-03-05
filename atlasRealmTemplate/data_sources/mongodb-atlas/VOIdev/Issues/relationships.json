@@ -1,0 +1,8 @@
+{
+    "jurisdiction.id": {
+        "ref": "#/relationship/mongodb-atlas/VOIdev/Jurisdictions",
+        "source_key": "jurisdiction.id",
+        "foreign_key": "_id",
+        "is_list": false
+    }
+}

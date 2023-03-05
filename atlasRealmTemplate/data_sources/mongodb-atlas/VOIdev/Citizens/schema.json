@@ -1,0 +1,60 @@
+{
+    "properties": {
+        "First Name": {
+            "bsonType": "string"
+        },
+        "Last Name": {
+            "bsonType": "string"
+        },
+        "Middle Name": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "cell/mobile phone": {
+            "bsonType": "string"
+        },
+        "citizenOf": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "jurisdictionID": {
+                        "bsonType": "objectId"
+                    },
+                    "name": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "dateOfBirth": {
+            "bsonType": "date"
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "gidImageBack": {
+            "bsonType": "string"
+        },
+        "gidImageFront": {
+            "bsonType": "string"
+        },
+        "gidNumber": {
+            "bsonType": "string"
+        },
+        "placeOfBirth": {
+            "bsonType": "object",
+            "properties": {
+                "jurisdictionID": {
+                    "bsonType": "objectId"
+                },
+                "name": {
+                    "bsonType": "string"
+                }
+            }
+        }
+    },
+    "title": "Citizen"
+}

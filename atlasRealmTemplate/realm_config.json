@@ -1,0 +1,8 @@
+{
+    "app_id": "voirealm-egfpj",
+    "config_version": 20210101,
+    "name": "voiRealm",
+    "location": "US-OR",
+    "provider_region": "azure-westus",
+    "deployment_model": "LOCAL"
+}
