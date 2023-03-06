@@ -22,15 +22,7 @@
             "bsonType": "string"
         },
         "jurisdiction": {
-            "bsonType": "object",
-            "properties": {
-                "id": {
-                    "bsonType": "objectId"
-                },
-                "name": {
-                    "bsonType": "string"
-                }
-            }
+            "bsonType": "string"
         },
         "name": {
             "bsonType": "string"
