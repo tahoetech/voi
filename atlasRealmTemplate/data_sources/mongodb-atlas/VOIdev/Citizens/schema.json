@@ -1,19 +1,7 @@
 {
     "properties": {
-        "First Name": {
-            "bsonType": "string"
-        },
-        "Last Name": {
-            "bsonType": "string"
-        },
-        "Middle Name": {
-            "bsonType": "string"
-        },
         "_id": {
             "bsonType": "objectId"
-        },
-        "cell/mobile phone": {
-            "bsonType": "string"
         },
         "citizenOf": {
             "bsonType": "array",
@@ -42,6 +30,18 @@
             "bsonType": "string"
         },
         "gidNumber": {
+            "bsonType": "string"
+        },
+        "nameFirst": {
+            "bsonType": "string"
+        },
+        "nameLast": {
+            "bsonType": "string"
+        },
+        "nameMiddle": {
+            "bsonType": "string"
+        },
+        "phoneMobile": {
             "bsonType": "string"
         },
         "placeOfBirth": {
